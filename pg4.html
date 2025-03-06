@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling Site</title>
+    <style>
+           figure {
+            width: 55%;
+            padding: 2% 20px;
+            float: left;
+
+        }
+
+        figure>img {
+            width: 70%;
+        }
+
+        p {
+            background-color: #E1F2BD;
+            margin-bottom: 5%;
+            margin: 6%;
+            color: white; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:200%;
+        }
+
+        footer {
+            color: #BDC1F2;
+            background-color: #E1F2BD;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .red-bg {
+            background-color: #F9DCE1;
+
+        }
+
+        .gold-bg {
+            background-color: #F2BDCD;
+        }
+
+        .silver-bg {
+            background-color: #F9DCE1;
+        }
+
+        #main-content {
+            width: 56%;
+            float: left;
+            padding: 2%;
+        }
+
+        #sidebar {
+            width: 36%;
+            float: left;
+            padding: 2%;
+        }
+
+        footer {
+            clear: left;
+        }
+
+        #wrapper {
+            width: 80.56640625%;
+            /*825/1024*/
+            ;
+            margin: 0 auto;
+
+        }
+
+        .nav-item {
+            display: inline-block;
+            margin-left: 2%;
+            background-color: #F2BDCD;
+        }
+
+        li.nav-item a:link {
+            color: #B9F2E0;
+        }
+
+        li.nav-item a:visited {
+            color: #B9F2E0;
+        }
+
+        li.nav-item a:hover {
+            color: white;
+        }
+
+        li.nav-item a:active {
+            color: #E1F2BD;
+        }
+
+        
+
+        nav {
+            width: 85.57575757575758%;
+            /*706/825*/
+            margin: 0 auto;
+            background-color:#F2BDCD;
+            padding: 1% 0;
+        }
+        nav ul { width: 85.57575757575758%; /*706/825*/ margin: 0 auto;}
+
+        #feature {
+            width: 81.32575757575758%; /*706/825*/
+            margin: 3% auto 4% auto ;
+            padding: 1.5% 2.25% 3.5% 2.25%;
+            background-color: #E1F2BD;
+            overflow: hidden;
+        }
+
+        .feature-img {
+            float:left;
+            width: 60%;
+        }
+
+        .feature-text {
+            float: right;
+            
+            margin-left: 2%;
+            }
+
+        #Main-content {
+            width: 63.39393939393939%;
+            /*523/825*/
+        }
+
+        .main-figure {
+            width: 32.50478011472275%;
+            /*170/523*/
+            margin-right: 9.56022944550669%;
+            /*50/523*/
+        }
+
+        #sidebar {
+            width: 32.606060606060615%;
+            /*302/825*/
+            margin: 2.5%;
+        }
+
+        /*++++++++blockquote++++++++++*/
+        blockquote {
+            font-size: 1.5em;
+            
+            line-height: 1.5em;
+            margin: 4% 0 4% 6%;
+            border-left: 10px solid #E1F2BD;
+            color: #BDC1F2;
+        }
+
+        blockquote:before {
+            content: "\201C";
+            font-size: 4em;
+            vertical-align: -.5em;
+        }
+
+        header { padding: 3%;}
+
+        h1 {
+            color: #BDC1F2;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #F9DCE1;
+            padding: 3%;
+        }
+
+        h2 {
+            color: #BDD9F2;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        }
+
+        h3 {
+            color: #B9F2E0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 200%;
+        }
+
+
+        h2 {
+            font-size: 2em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVd0-y2KQ84z6Vjb8AVxyXZGc0UhmXw9bLM49oZ2sL9qVzs7dgACGrOgy0arz55V_soQ&usqp=CAU');
+        }
+
+        .side-figure {
+            width: 88.0794701986755%;
+        }
+        li {color:white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 170%;
+       
+    }
+    /*type styles*/
+    #feature h2 { margin-bottom: 3%;}
+    
+    table {
+        color:#B9F2E0;
+        padding: 1%;
+        border: 4px solid #BDC1F2;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: larger;
+        background-color: white;
+
+    }
+
+    thead {
+        color:#B9F2E0;
+        background-color:#F9DCE1;
+    }
+
+    tbody {
+        background-color:#F2BDCD;
+    }
+
+    tfoot {
+        background-color:#BDD9F2;}
+
+      a:link{
+            color: #B9F2E0;
+        }
+
+      a:visited {
+            color:#F2BDCD;
+        }
+
+        a:hover {
+            color: #BDC1F2;
+        }
+
+       a:active {
+            color: #E1F2BD;
+        }
+    
+    
+    
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Different Arts</h1>
+        </header>
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="pg1.html">page 1</a></li>
+                <li class="nav-item"><a href="pg2.html">page 2</a></li>
+                <li class="nav-item"><a href="pg3.html">page 3</a></li>
+                <li class="nav-item"><a href="pg5.html">page 5</a></li>
+            </ul>
+        </nav>
+        
+        <div id="feature">
+            <h2>Details on Sculpture Art </h2>
+            <img src="data:image/jpeg;base64,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"
+            class="feature-img"/>
+            <p class="feature-text"> Sculpture is a three-dimensional art form that uses a variety of materials and techniques to create art objects. 
+
+                <a href="https://www.britannica.com/art/sculpture"> For more information on sculpture art</a>
+            </p>
+        </div>
+
+        <div id="main-content">
+            <article>
+                <h3>The History </h3>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDIlBmR4rzncfEqdfkzoc4fCw77y1vsWRUw&s" />
+                    <figcaption>
+                        <p>History is key in art</p>
+                    </figcaption>
+                </figure>
+                <div class="red-bg">
+                <p class="red-bg"> Today, no one really knows for sure when the world's first sculptures were made. However, historians suggest that it all began in the so-called Stone Age. In fact, The Venus of Berekhat (230,000 BC) and The Venus of Tan-Tan (200,000 BC), two objects with pre-sculptural forms, are the oldest known stone effigies. The first documented sculptures date from approximately 35,000 BC and are carvings in the form of animals, as well as birds, discovered in two German caves: the Vogelherd and the Hohlensten-Stadel.
+
+                    Sculptures were historically created as a way to commemorate significant events and individuals, express religious beliefs, convey societal values, and immortalize important figures through a tangible three-dimensional form, often serving as a visual storytelling medium across cultures and time periods.
+
+                </p>
+                </div>
+                   
+            </article>
+
+            <article>
+            
+                <h3>The Impact</h3>
+                <div class="red-bg">
+                <p class="red-bg"> Sculptures have been used to symbolize power, political statements, and societal values. For example, the Great Sphinx of Giza represents the power of the ancient Egyptians. In ancient Greece, sculpture was considered the highest form of artistic expression. Greek sculptures depicted gods, goddesses, and mythological creatures.
+
+                </div>
+                </p>
+            </article>
+            <article>
+                <h3>Some Comparison</h3>
+                <div class="red-bg">
+<p class="red-bg">Here are some things that are similar to realism:</p>
+                    <ol>
+                        <li>Carvings </li>
+                        <ul><li>The art of cutting, chipping, or scraping materials like wood, stone, or ice to create designs                        
+                        </li></ul>
+                        <li>Architecture</li>
+                        <ul><li>The art and technique of designing and building, as distinguished from the skills associated with construction.
+                        </li></ul>
+                    </ol>
+                    
+            </article>
+        </div>
+    </div><!--closing main div-->
+    <div id="sidebar">
+        <article>
+            <h3>Why is it Important?</h3>
+            <figure>
+                <img src="https://i.ytimg.com/vi/XQGcunSAo8c/maxresdefault.jpg" />
+                <figcaption>
+                    <p>Art has significance </p>
+                </figcaption>
+            </figure>
+            <div class="gold-bg">
+            <p class="gold-bg"> Sculpture art is important because it provides a unique, three-dimensional medium for artists to express complex ideas and emotions, serving as a visual representation of a society's values, beliefs, and cultural identity through tangible forms, allowing viewers to interact with and experience art in a physical way, often capturing historical moments and figures while also pushing the boundaries of contemporary artistic expression. 
+            </p>
+            <p class="gold-bg"> Sculptures act as visual records of a society's history, beliefs, and important figures, offering insight into past civilizations through their depictions. 
+ 
+            </p>
+            <p class="gold-bg">Sculpture allows artists to creatively express ideas and emotions through form, texture, and space, offering a unique perspective compared to other art forms like painting.  
+            </div>
+                
+                <h3>How to Perform Realism</h3>
+                <div class="gold-bg">
+                <p class="gold-bg"> The four basic methods used to make sculptures are modelling, casting, assemblage and carving. These processes can be employed to create free-standing or relief sculptures. </p>
+
+                </div>
+            
+        </article>
+        <article>
+            <table>
+                <caption>Rating of Most Spoken</caption>
+                <thead>
+                    <tr>
+                        <td>1. English</td>
+                        <td>2. Spanish</td>
+                        <td>3. French </td>
+                        <td>4. Portuguese </td>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td>9. Korean</td>
+                        <td>10. Quechua </td>
+                        <td>11. Hmong</td>
+                        <td>12. Mongolian </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>5. Russian</td>
+                        <td>6. German</td>
+                        <td>7. Vietnamese</td>
+                        <td>8. Italian</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        
+    </div><!--close side div-->
+    <footer>
+        Jayani Allen - Copyright of 2025
+    </footer>
+    </div>
+</body>
+
+</html>
