@@ -1,0 +1,244 @@
+figure {
+    width: 55%;
+    padding: 2% 20px;
+    float: left;
+
+}
+
+figure>img {
+    width: 70%;
+}
+
+p {
+    background-color: #E1F2BD;
+    margin-bottom: 5%;
+    margin: 6%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+footer {
+    color: #BDC1F2;
+    background-color: #E1F2BD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.red-bg {
+    background-color: #F9DCE1;
+
+}
+
+.gold-bg {
+    background-color: #F2BDCD;
+}
+
+.silver-bg {
+    background-color: #F9DCE1;
+}
+
+#main-content {
+    width: 56%;
+    float: left;
+    padding: 2%;
+}
+
+#sidebar {
+    width: 36%;
+    float: left;
+    padding: 2%;
+}
+
+footer {
+    clear: left;
+}
+
+#wrapper {
+    width: 80.56640625%;
+    /*825/1024*/
+    ;
+    margin: 0 auto;
+
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 2%;
+    background-color: #F2BDCD;
+}
+
+li.nav-item a:link {
+    color: #B9F2E0;
+}
+
+li.nav-item a:visited {
+    color: #B9F2E0;
+}
+
+li.nav-item a:hover {
+    color: white;
+}
+
+li.nav-item a:active {
+    color: #E1F2BD;
+}
+
+
+
+nav {
+    width: 85.57575757575758%;
+    /*706/825*/
+    margin: 0 auto;
+    background-color: #F2BDCD;
+    padding: 1% 0;
+}
+
+nav ul {
+    width: 85.57575757575758%;
+    /*706/825*/
+    margin: 0 auto;
+}
+
+#feature {
+    width: 81.32575757575758%;
+    /*706/825*/
+    margin: 3% auto 4% auto;
+    padding: 1.5% 2.25% 3.5% 2.25%;
+    background-color: #E1F2BD;
+    overflow: hidden;
+}
+
+.feature-img {
+    float: left;
+    width: 60%;
+}
+
+.feature-text {
+    float: right;
+
+    margin-left: 2%;
+}
+
+#Main-content {
+    width: 63.39393939393939%;
+    /*523/825*/
+}
+
+.main-figure {
+    width: 32.50478011472275%;
+    /*170/523*/
+    margin-right: 9.56022944550669%;
+    /*50/523*/
+}
+
+#sidebar {
+    width: 32.606060606060615%;
+    /*302/825*/
+    margin: 2.5%;
+}
+
+/*++++++++blockquote++++++++++*/
+blockquote {
+    font-size: 1.5em;
+
+    line-height: 1.5em;
+    margin: 4% 0 4% 6%;
+    border-left: 10px solid #E1F2BD;
+    color: #BDC1F2;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 4em;
+    vertical-align: -.5em;
+}
+
+header {
+    padding: 3%;
+}
+
+h1 {
+    color: #BDC1F2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F9DCE1;
+    padding: 3%;
+    border: 6px solid;
+}
+
+h2 {
+    color: #BDD9F2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3 {
+    color: #B9F2E0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+
+}
+
+
+h2 {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVd0-y2KQ84z6Vjb8AVxyXZGc0UhmXw9bLM49oZ2sL9qVzs7dgACGrOgy0arz55V_soQ&usqp=CAU');
+}
+
+.side-figure {
+    width: 88.0794701986755%;
+}
+
+li {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 170%;
+
+}
+
+/*type styles*/
+#feature h2 {
+    margin-bottom: 3%;
+}
+
+table {
+    color: #B9F2E0;
+    padding: 1%;
+    border: 4px solid #BDC1F2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    background-color: white;
+
+}
+
+thead {
+    color: #B9F2E0;
+    background-color: #F9DCE1;
+}
+
+tbody {
+    background-color: #F2BDCD;
+}
+
+tfoot {
+    background-color: #BDD9F2;
+}
+
+a:link {
+    color: #B9F2E0;
+}
+
+a:visited {
+    color: #F2BDCD;
+}
+
+a:hover {
+    color: #BDC1F2;
+}
+
+a:active {
+    color: #E1F2BD;
+}
