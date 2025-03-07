@@ -5,235 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art Site</title>
-    <style>
-        figure {
-            width: 55%;
-            padding: 2% 20px;
-            float: left;
-
-        }
-
-        figure>img {
-            width: 70%;
-        }
-
-        p {
-            background-color: #E1F2BD;
-            margin-bottom: 5%;
-            margin: 6%;
-            color: white; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size:200%;
-        }
-
-        footer {
-            color: #BDC1F2;
-            background-color: #E1F2BD;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        .red-bg {
-            background-color: #F9DCE1;
-
-        }
-
-        .gold-bg {
-            background-color: #F2BDCD;
-        }
-
-        .silver-bg {
-            background-color: #F9DCE1;
-        }
-
-        #main-content {
-            width: 56%;
-            float: left;
-            padding: 2%;
-        }
-
-        #sidebar {
-            width: 36%;
-            float: left;
-            padding: 2%;
-        }
-
-        footer {
-            clear: left;
-        }
-
-        #wrapper {
-            width: 80.56640625%;
-            /*825/1024*/
-            ;
-            margin: 0 auto;
-
-        }
-
-        .nav-item {
-            display: inline-block;
-            margin-left: 2%;
-            background-color: #F2BDCD;
-        }
-
-        li.nav-item a:link {
-            color: #B9F2E0;
-        }
-
-        li.nav-item a:visited {
-            color: #B9F2E0;
-        }
-
-        li.nav-item a:hover {
-            color: white;
-        }
-
-        li.nav-item a:active {
-            color: #E1F2BD;
-        }
-
-        
-
-        nav {
-            width: 85.57575757575758%;
-            /*706/825*/
-            margin: 0 auto;
-            background-color:#F2BDCD;
-            padding: 1% 0;
-        }
-        nav ul { width: 85.57575757575758%; /*706/825*/ margin: 0 auto;}
-
-        #feature {
-            width: 81.32575757575758%; /*706/825*/
-            margin: 3% auto 4% auto ;
-            padding: 1.5% 2.25% 3.5% 2.25%;
-            background-color: #E1F2BD;
-            overflow: hidden;
-        }
-
-        .feature-img {
-            float:left;
-            width: 60%;
-        }
-
-        .feature-text {
-            float: right;
-            
-            margin-left: 2%;
-            }
-
-        #Main-content {
-            width: 63.39393939393939%;
-            /*523/825*/
-        }
-
-        .main-figure {
-            width: 32.50478011472275%;
-            /*170/523*/
-            margin-right: 9.56022944550669%;
-            /*50/523*/
-        }
-
-        #sidebar {
-            width: 32.606060606060615%;
-            /*302/825*/
-            margin: 2.5%;
-        }
-
-        /*++++++++blockquote++++++++++*/
-        blockquote {
-            font-size: 1.5em;
-            
-            line-height: 1.5em;
-            margin: 4% 0 4% 6%;
-            border-left: 10px solid #E1F2BD;
-            color: #BDC1F2;
-        }
-
-        blockquote:before {
-            content: "\201C";
-            font-size: 4em;
-            vertical-align: -.5em;
-        }
-
-        header { padding: 3%;}
-
-        h1 {
-            color: #BDC1F2;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            background-color: #F9DCE1;
-            padding: 3%;
-        }
-
-        h2 {
-            color: #BDD9F2;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        
-        }
-
-        h3 {
-            color: #B9F2E0;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 200%;
-        }
-
-
-        h2 {
-            font-size: 2em;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVd0-y2KQ84z6Vjb8AVxyXZGc0UhmXw9bLM49oZ2sL9qVzs7dgACGrOgy0arz55V_soQ&usqp=CAU');
-        }
-
-        .side-figure {
-            width: 88.0794701986755%;
-        }
-        li {color:white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 170%;
-       
-    }
-    /*type styles*/
-    #feature h2 { margin-bottom: 3%;}
-    
-    table {
-        color:#B9F2E0;
-        padding: 1%;
-        border: 4px solid #BDC1F2;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: larger;
-        background-color: white;
-
-    }
-
-    thead {
-        color:#B9F2E0;
-        background-color:#F9DCE1;
-    }
-
-    tbody {
-        background-color:#F2BDCD;
-    }
-
-    tfoot {
-        background-color:#BDD9F2;}
-
-      a:link{
-            color: #B9F2E0;
-        }
-
-      a:visited {
-            color:#F2BDCD;
-        }
-
-        a:hover {
-            color: #BDC1F2;
-        }
-
-       a:active {
-            color: #E1F2BD;
-        }
-    
-    
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -249,51 +21,69 @@
                 <li class="nav-item"><a href="pg4.html">page 4</a></li>
             </ul>
         </nav>
-        
+
         <div id="feature">
             <h2>Details on Hyperrealism </h2>
             <img src="https://static.boredpanda.com/blog/wp-content/uploads/2020/01/hyperrrealistic-drawings-cats-yuki-kudo-fb8-png__700.jpg"
-            class="feature-img"/>
-            <p class="feature-text"> Hyperrealism is a style of art that is extremely realistic, often appearing so lifelike that it's mistaken for reality. It's used to describe paintings, sculptures, and sometimes photography.  
-                <a href="https://marcusashley.com/the-history-of-realistic-and-hyperrealistic-art/?srsltid=AfmBOopQg3NKbHZqH0Jw5bTtaDx91mJQWxzvWY9dRM1oBEcQ4EMb5qdj"> For more information on hyperrealism</a>
+                class="feature-img" />
+            <p class="feature-text"> Hyperrealism is a style of art that is extremely realistic, often appearing so
+                lifelike that it's mistaken for reality. It's used to describe paintings, sculptures, and sometimes
+                photography.
+                <a
+                    href="https://marcusashley.com/the-history-of-realistic-and-hyperrealistic-art/?srsltid=AfmBOopQg3NKbHZqH0Jw5bTtaDx91mJQWxzvWY9dRM1oBEcQ4EMb5qdj">
+                    For more information on hyperrealism</a>
             </p>
         </div>
-                
+
 
         <div id="main-content">
             <article>
                 <h3>The History </h3>
                 <figure>
-                    <img src="data:image/jpeg;base64,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" />
+                    <img
+                        src="data:image/jpeg;base64,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" />
                     <figcaption>
                         <p>History is key in art</p>
                     </figcaption>
                 </figure>
                 <div class="red-bg">
-                <p class="red-bg"> Hyperrealism is a relatively new form of art. It describes artwork that looks incredibly lifelike and is often mistaken for the real thing. At a distance, it’s easy to confuse a hyperrealistic painting or sculpture for an actual photograph or object. This is quite deliberate. Artists create an illusion of reality by using special techniques to create their artwork. As a genre, Hyperrealism is distinct from Photorealism and Realism, although it evolved from them. To understand the history of the hyperrealistic art movement, it’s worth taking a look at the history of its precursors.
+                    <p class="red-bg"> Hyperrealism is a relatively new form of art. It describes artwork that looks
+                        incredibly lifelike and is often mistaken for the real thing. At a distance, it’s easy to
+                        confuse a hyperrealistic painting or sculpture for an actual photograph or object. This is quite
+                        deliberate. Artists create an illusion of reality by using special techniques to create their
+                        artwork. As a genre, Hyperrealism is distinct from Photorealism and Realism, although it evolved
+                        from them. To understand the history of the hyperrealistic art movement, it’s worth taking a
+                        look at the history of its precursors.
 
 
 
-                </p>
+                    </p>
                 </div>
-                <blockquote>The term ‘Hyperrealism’ was coined a year later by Isy Brachot, a Belgian art dealer. In 1973, he hosted an exhibition which featured the work of several prominent American Photorealists. He called it L’hyperréalisme. 
+                <blockquote>The term ‘Hyperrealism’ was coined a year later by Isy Brachot, a Belgian art dealer. In
+                    1973, he hosted an exhibition which featured the work of several prominent American Photorealists.
+                    He called it L’hyperréalisme.
                 </blockquote>
 
                 <div class="red-bg">
-                <p class="red-bg">However, despite its roots, it wasn’t until the early 2000s that Hyperrealism evolved into the independent art form it is today. Modern Hyperrealism combines traditional artistry with newfound techniques by leveraging advances in technology.
+                    <p class="red-bg">However, despite its roots, it wasn’t until the early 2000s that Hyperrealism
+                        evolved into the independent art form it is today. Modern Hyperrealism combines traditional
+                        artistry with newfound techniques by leveraging advances in technology.
 
 
 
-                </p>
-                    </div>
-                   
+                    </p>
+                </div>
+
             </article>
 
             <article>
-            
+
                 <h3>The Impact</h3>
                 <div class="red-bg">
-                <p class="red-bg"> Hyperrealistic art challenges our perceptions of reality by depicting the world in all its complexity. It encourages viewers to slow down and appreciate the details they might otherwise miss. Hyperrealism questions our understanding of reality by showing the imperfections and textures that make life unpredictable. 
+                    <p class="red-bg"> Hyperrealistic art challenges our perceptions of reality by depicting the world
+                        in all its complexity. It encourages viewers to slow down and appreciate the details they might
+                        otherwise miss. Hyperrealism questions our understanding of reality by showing the imperfections
+                        and textures that make life unpredictable.
 
 
                 </div>
@@ -302,16 +92,22 @@
             <article>
                 <h3>Some Comparison</h3>
                 <div class="red-bg">
-<p class="red-bg">Here are some things that are similar to hyperrealism:</p>
+                    <p class="red-bg">Here are some things that are similar to hyperrealism:</p>
                     <ol>
                         <li>Naturalism </li>
-                        <ul><li>The style of creating realistic works that closely resemble the real world. Similar to realism in its goal of accurately depicting the real world.                        
-                        </li></ul>
+                        <ul>
+                            <li>The style of creating realistic works that closely resemble the real world. Similar to
+                                realism in its goal of accurately depicting the real world.
+                            </li>
+                        </ul>
                         <li>Photorealism </li>
-                        <ul><li>Photorealism artists use techniques like projecting photographs onto canvas to create precise, accurate images. </li> </ul>
-                        
+                        <ul>
+                            <li>Photorealism artists use techniques like projecting photographs onto canvas to create
+                                precise, accurate images. </li>
+                        </ul>
+
                     </ol>
-                    
+
             </article>
         </div>
     </div><!--closing main div-->
@@ -319,58 +115,85 @@
         <article>
             <h3>Why is it Important?</h3>
             <figure>
-                <img src="data:image/jpeg;base64,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" />
+                <img
+                    src="data:image/jpeg;base64,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" />
                 <figcaption>
                     <p>Art has significance </p>
                 </figcaption>
             </figure>
             <div class="gold-bg">
-            <p class="gold-bg"> Hyperrealism is considered important because it allows artists to explore and depict everyday life with incredible detail, often pushing the boundaries of perception by creating illusions that appear more real than reality, which can lead to deeper engagement with the subject matter and provoke contemplation about our relationship with the visual world around us; it also showcases exceptional technical skill and can incorporate social, cultural, and emotional elements beyond a simple photographic reproduction. 
+                <p class="gold-bg"> Hyperrealism is considered important because it allows artists to explore and depict
+                    everyday life with incredible detail, often pushing the boundaries of perception by creating
+                    illusions that appear more real than reality, which can lead to deeper engagement with the subject
+                    matter and provoke contemplation about our relationship with the visual world around us; it also
+                    showcases exceptional technical skill and can incorporate social, cultural, and emotional elements
+                    beyond a simple photographic reproduction.
 
-            </p>
-            <p class="gold-bg"> By meticulously capturing minute details, hyperrealism can highlight aspects of the everyday that might otherwise go unnoticed, making viewers more aware of their surroundings. 
+                </p>
+                <p class="gold-bg"> By meticulously capturing minute details, hyperrealism can highlight aspects of the
+                    everyday that might otherwise go unnoticed, making viewers more aware of their surroundings.
 
-            </p>
-            <p class="gold-bg">Hyperrealism can incorporate subtle emotional and narrative elements within highly realistic depictions, allowing artists to convey deeper meaning. 
+                </p>
+                <p class="gold-bg">Hyperrealism can incorporate subtle emotional and narrative elements within highly
+                    realistic depictions, allowing artists to convey deeper meaning.
 
             </div>
-                
-                <h3>How to Perform Hyperrealism</h3>
-                <div class="gold-bg">
-                <p class="gold-bg"> To create hyperrealism art, you need to meticulously study and replicate a reference image, usually a photograph, by using a range of pencil grades, blending techniques, and extreme attention to detail, focusing on subtle tonal shifts and minute variations in light and shadow to achieve a highly realistic appearance on your canvas or paper; key elements include using a high-quality reference image, keeping your pencils sharp, and consistently comparing your work to the reference to capture the precise details. 
+
+            <h3>How to Perform Hyperrealism</h3>
+            <div class="gold-bg">
+                <p class="gold-bg"> To create hyperrealism art, you need to meticulously study and replicate a reference
+                    image, usually a photograph, by using a range of pencil grades, blending techniques, and extreme
+                    attention to detail, focusing on subtle tonal shifts and minute variations in light and shadow to
+                    achieve a highly realistic appearance on your canvas or paper; key elements include using a
+                    high-quality reference image, keeping your pencils sharp, and consistently comparing your work to
+                    the reference to capture the precise details.
                 </p>
-        </div>
+            </div>
+       
         </article>
         <article>
             <table>
-                <caption>Rating of Most Spoken</caption>
+                <caption>Hyperrealism Artists</caption>
                 <thead>
                     <tr>
-                        <td>1. English</td>
-                        <td>2. Spanish</td>
-                        <td>3. French </td>
-                        <td>4. Portuguese </td>
+                        <td>•••••
+                            Duane Hanson </td>
+                        <td>•••••
+                            John DeAndrea </td>
+                        <td>•••••
+                            Maurizio Cattelan</td>
+                        <td>•••••
+                            Ron Mueck
+                        </td>
                     </tr>
                 </thead>
                 <tfoot>
                     <tr>
-                        <td>9. Korean</td>
-                        <td>10. Quechua </td>
-                        <td>11. Hmong</td>
-                        <td>12. Mongolian </td>
+                        <td>•••••
+                            Johan Abeling</td>
+                        <td>•••••
+                            Alexandra Averbach </td>
+                        <td>•••••
+                            John Baeder</td>
+                        <td>•••••
+                            Javier Banegas</td>
                     </tr>
                 </tfoot>
                 <tbody>
                     <tr>
-                        <td>5. Russian</td>
-                        <td>6. German</td>
-                        <td>7. Vietnamese</td>
-                        <td>8. Italian</td>
+                        <td>•••••
+                            Paul Beliveau </td>
+                        <td>•••••
+                            Tom Betts </td>
+                        <td> •••••
+                            Adolfo G. Bigioni</td>
+                        <td>•••••
+                            Jacques Bodin</td>
                     </tr>
                 </tbody>
             </table>
         </article>
-        
+
     </div><!--close side div-->
     <footer>
         Jayani Allen - Copyright of 2025
